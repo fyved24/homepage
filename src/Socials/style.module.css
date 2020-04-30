@@ -1,5 +1,8 @@
 .socials_container{
+    width: 200px;
     display: flex;
-    column-gap: 10px;
+    /* column-gap: 30px; */
     color: white;
+    justify-content: space-evenly;
+    /* background-color: brown; */
 }
