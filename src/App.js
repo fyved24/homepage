@@ -18,13 +18,14 @@ function App() {
           /></h1>
         <TypedReact
           strings={[
-            '`rm -rf /* `^1000\n' +
+            'rm -rf /* ^1000\n' +
             '5...^300 ' +
             '4...^300 ' +
             '3...^300 ' +
             '2...^300 ' +
-            '1...^300 '
-          ]}
+            '1...^300 ' +
+            '\nBoom!!! ^300'
+          ]} loop="true"
         />
         <div className="project_contianer">
           <Project>主页</Project>

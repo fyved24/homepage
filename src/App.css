@@ -6,7 +6,7 @@
   grid-template-areas: 
       "content"
       "footer";
-  grid-template-rows:1fr 30px;
+  grid-template-rows:9fr 1fr;
   background-color: #453963;
 }
 main {
@@ -27,3 +27,19 @@ main {
 footer {
   grid-area: footer;
 }
+a:link {
+  color:white;
+  text-decoration:none;
+  }
+a:visited {
+color:white;
+text-decoration:none;
+}
+a:hover {
+color:white;
+text-decoration:none;
+}
+a:active {
+color:white;
+text-decoration:none;
+} 
