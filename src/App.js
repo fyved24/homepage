@@ -4,6 +4,7 @@ import './App.css';
 import Project from './Project';
 import Footer from './Footer';
 import TypedReact from './TypedReact';
+import Socials from './Socials';
 
 function App() {
   return (
@@ -25,12 +26,12 @@ function App() {
             '1...^300 '
           ]}
         />
-
         <div className="project_contianer">
           <Project>主页</Project>
           <Project>下载站</Project>
           <Project>云盘</Project>
         </div>
+        <Socials />
       </main>
       <Footer></Footer>
     </div>

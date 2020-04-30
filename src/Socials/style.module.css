@@ -1,0 +1,5 @@
+.socials_container{
+    display: flex;
+    column-gap: 10px;
+    color: white;
+}
